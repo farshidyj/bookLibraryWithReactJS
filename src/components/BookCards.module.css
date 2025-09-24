@@ -1,0 +1,47 @@
+.likeButton {
+    border: none;
+    background: none;
+    transition: .2s ;
+
+}
+.likeButton:hover {
+
+    transform: scale(1.2);
+
+}
+
+.card {
+    display: flex;
+    background-color: #303030;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card img {
+
+height: 60px;
+border-radius: 5px;
+}
+
+.info {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: .7rem;
+    justify-content: space-between;
+
+}
+
+.info span {
+    color: rgb(108, 108, 108);
+    margin-right: 10px;
+}
+
+.likeButton{
+    margin-left: 20px;
+    cursor: pointer;
+}

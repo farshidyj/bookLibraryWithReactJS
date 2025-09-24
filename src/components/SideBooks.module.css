@@ -1,0 +1,29 @@
+.bookCard {
+
+    display: flex;
+    background-color: #607afd;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px 0;
+
+
+
+}
+.title {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.bookCard img {
+    width: 30px;
+    border-radius: 4px;
+}
+.bookCard p {
+    
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.41);
+    font-size: 12px;
+}

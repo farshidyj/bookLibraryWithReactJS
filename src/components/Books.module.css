@@ -1,0 +1,23 @@
+.Container {
+
+display: flex;
+
+}
+
+.bookCards {
+flex: 3 1 0;
+min-height: 100vh;
+}
+
+
+.favorites {
+margin-top: 10px;
+flex: 1 1 0;
+padding: 20px;
+margin-left: 20px;
+background-color: #3951cb;
+border-radius: 10px;
+height: fit-content ;
+
+
+}
